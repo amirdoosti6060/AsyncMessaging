@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAPI", "CommandAPI\CommandAPI.csproj", "{A2214093-D04A-4608-8C21-76D11FDD64CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandHistory", "CommandHistory\CommandHistory.csproj", "{90E7E3CD-4876-4A02-92D8-0BC6DBFB8372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2214093-D04A-4608-8C21-76D11FDD64CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2214093-D04A-4608-8C21-76D11FDD64CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2214093-D04A-4608-8C21-76D11FDD64CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2214093-D04A-4608-8C21-76D11FDD64CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E7E3CD-4876-4A02-92D8-0BC6DBFB8372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E7E3CD-4876-4A02-92D8-0BC6DBFB8372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E7E3CD-4876-4A02-92D8-0BC6DBFB8372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E7E3CD-4876-4A02-92D8-0BC6DBFB8372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B479695D-202B-4E0E-98DF-2C8BDA5E03C6}
+	EndGlobalSection
+EndGlobal
