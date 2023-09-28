@@ -30,7 +30,12 @@ Please note that this example provide for educational purpose and in many aspect
 ## How to install Kafka?
 To install Kafka you can use docker or install it directly or even use cloud version but I used the bitnami/kafka from DockerHub. You can get it from this link:
 https://hub.docker.com/r/bitnami/kafka  
-As mentioned in above link, it is easier to download and start docker using the docker-compose.yml but I make a changes in it to have access to Kafka from outside of docker compose. Here is the changes I make.  
+As mentioned in above link, it is easier to download and start docker using the docker-compose.yml but I make a changes in it to have access to Kafka from outside of docker compose. Here is the changes I make:  
+Change from
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://:9092
+to
+      - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+
 Based on the location of Kafka, you need to change its address in appsettings.json in both projects.  
 
 ## What you may learn from this project
