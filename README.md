@@ -34,7 +34,7 @@ As mentioned in above link, it is easier to download and start docker using the 
 Based on the location of Kafka, you need to change its address in appsettings.json in both projects.  
 
 ## What you may learn from this project
-- Asynchronous Messaging Design Pattern in Microservices. I wrote an article in Linkedin in the following link that explain completely this design pattern.
+- Asynchronous Messaging Design Pattern in Microservices. I wrote an article in Linkedin in the following link that explain completely this design pattern. https://www.linkedin.com/pulse/asynchronous-messaging-design-pattern-amir-doosti 
 - How to send and recieve message using Kafka in .Net (Confluent.Kafka)
 - How can register a serializer and deserializer in Kafka
 - How can config and do some settings programatically
