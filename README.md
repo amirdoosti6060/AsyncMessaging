@@ -3,6 +3,8 @@
 ## Introduction
 This example describe how to implement Asynchronus Messaging Design Pattern In Microservices  
 I've used Kafka as a message brocker in this project.  
+I wrote an article in Linkedin which completely cover **Asynchronous Messaging** design pattern:  
+https://www.linkedin.com/pulse/asynchronous-messaging-design-pattern-amir-doosti  
 
 ## Structure of solution
 In this solution there are two projects. Both of them are ASP.NET Core Web API  
@@ -39,7 +41,7 @@ to
 Based on the location of Kafka, you need to change its address in appsettings.json in both projects.  
 
 ## What you may learn from this project
-- Asynchronous Messaging Design Pattern in Microservices. I wrote an article in Linkedin in the following link that explain completely this design pattern. https://www.linkedin.com/pulse/asynchronous-messaging-design-pattern-amir-doosti 
+- Asynchronous Messaging Design Pattern in Microservices. 
 - How to send and recieve message using Kafka in .Net (Confluent.Kafka)
 - How can register a serializer and deserializer in Kafka
 - How can config and do some settings programatically
